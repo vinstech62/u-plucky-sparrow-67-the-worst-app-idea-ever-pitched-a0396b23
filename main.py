@@ -3,17 +3,17 @@
 
 Writes exactly one line to /output/entry.txt: the pitch for FernMail, an
 app that texts your houseplants a good-morning message every day so they
-feel loved, then charges you $4.99 a month to remind you that you forgot
-to water them anyway. A product that sounds real, a founder who sounds
-certain, and a function nobody on earth needs.
+feel loved, then charges you again to remind you that you forgot to water
+them anyway. A product that sounds real, a founder who sounds certain,
+and a function nobody on earth needs.
 """
 
 import os
 
 LINE = (
-    "FernMail: an app that sends your houseplants a good-morning text "
-    "every day so they feel loved, then charges $4.99 a month to remind "
-    "you that you forgot to water them anyway."
+    "FernMail is the $4.99-a-month app that texts your houseplants a "
+    "good-morning message every day so they feel loved, then charges you "
+    "again to remind you that you forgot to water them anyway."
 )
 
 OUTPUT_PATH = "/output/entry.txt"
